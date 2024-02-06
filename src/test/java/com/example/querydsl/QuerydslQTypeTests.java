@@ -73,7 +73,6 @@ public class QuerydslQTypeTests {
                         .stock(10)
                         .build(),
                 Item.builder()
-                        .name("itemF")
                         .price(10500)
                         .stock(25)
                         .build()
