@@ -14,8 +14,8 @@ public class ItemDto { // QuerydslProjTests의 Tuple을 Dto로 바꾸기 위한 
     private Integer totalCost;
 
     public ItemDto( // @AllArgsConstructor
-            Integer cost,
             String name,
+            Integer cost,
             Integer stock
     ) {
         this.name = name;
